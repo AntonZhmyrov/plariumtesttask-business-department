@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject", "ApacheLogParserProject\ApacheLogParserProject.csproj", "{55E736BA-A141-4AA7-96A9-E1EA941C2DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject.Data", "ApacheLogParserProject.Data\ApacheLogParserProject.Data.csproj", "{3E4F7A31-6949-44DA-B179-08A70731CF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject.Parser", "ApacheLogParserProject.Parser\ApacheLogParserProject.Parser.csproj", "{B708B60B-D0CD-4D7B-946D-5408B803FFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject.Models", "ApacheLogParserProject.Models\ApacheLogParserProject.Models.csproj", "{5379CB4A-42E2-4144-9674-25FA7C707C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E736BA-A141-4AA7-96A9-E1EA941C2DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E736BA-A141-4AA7-96A9-E1EA941C2DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E736BA-A141-4AA7-96A9-E1EA941C2DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E736BA-A141-4AA7-96A9-E1EA941C2DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4F7A31-6949-44DA-B179-08A70731CF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4F7A31-6949-44DA-B179-08A70731CF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4F7A31-6949-44DA-B179-08A70731CF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4F7A31-6949-44DA-B179-08A70731CF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B708B60B-D0CD-4D7B-946D-5408B803FFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B708B60B-D0CD-4D7B-946D-5408B803FFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B708B60B-D0CD-4D7B-946D-5408B803FFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B708B60B-D0CD-4D7B-946D-5408B803FFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5379CB4A-42E2-4144-9674-25FA7C707C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5379CB4A-42E2-4144-9674-25FA7C707C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5379CB4A-42E2-4144-9674-25FA7C707C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5379CB4A-42E2-4144-9674-25FA7C707C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

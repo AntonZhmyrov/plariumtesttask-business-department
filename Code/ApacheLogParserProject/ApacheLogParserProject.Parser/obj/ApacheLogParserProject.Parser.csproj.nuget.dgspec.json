@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Parser\\ApacheLogParserProject.Parser.csproj": {}
+  },
+  "projects": {
+    "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\ApacheLogParserProject.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\ApacheLogParserProject.Models.csproj",
+        "projectName": "ApacheLogParserProject.Models",
+        "projectPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\ApacheLogParserProject.Models.csproj",
+        "packagesPath": "C:\\Users\\anton.zhmyrov\\.nuget\\packages\\",
+        "outputPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.zhmyrov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Parser\\ApacheLogParserProject.Parser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Parser\\ApacheLogParserProject.Parser.csproj",
+        "projectName": "ApacheLogParserProject.Parser",
+        "projectPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Parser\\ApacheLogParserProject.Parser.csproj",
+        "packagesPath": "C:\\Users\\anton.zhmyrov\\.nuget\\packages\\",
+        "outputPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Parser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anton.zhmyrov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\ApacheLogParserProject.Models.csproj": {
+                "projectPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.Models\\ApacheLogParserProject.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

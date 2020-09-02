@@ -1,0 +1,9 @@
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\bin\Debug\netstandard2.1\ApacheLogParserProject.Models.deps.json
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\bin\Debug\netstandard2.1\ApacheLogParserProject.Models.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\bin\Debug\netstandard2.1\ApacheLogParserProject.Models.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.csprojAssemblyReference.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.csproj.CoreCompileInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.AssemblyInfoInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.AssemblyInfo.cs
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models\obj\Debug\netstandard2.1\ApacheLogParserProject.Models.pdb

@@ -1,0 +1,15 @@
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.deps.json
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.runtimeconfig.json
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.runtimeconfig.dev.json
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.csprojAssemblyReference.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.csproj.CoreCompileInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.AssemblyInfoInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.AssemblyInfo.cs
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.genruntimeconfig.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Models.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Models.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\obj\Debug\netcoreapp3.1\ApacheLogParserProject.Data.csproj.CopyComplete
