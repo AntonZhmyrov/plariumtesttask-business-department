@@ -21,6 +21,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\ApacheLogParserProject.Data\ApacheLogParserProject.Data\ApacheLogParserProject.Data.csproj" />
       <ProjectReference Include="..\ApacheLogParserProject.Data\ApacheLogParserProject.Data.csproj" />
+      <ProjectReference Include="..\ApacheLogParserProject.GeolocationService\ApacheLogParserProject.GeolocationService.csproj" />
       <ProjectReference Include="..\ApacheLogParserProject.Parser\ApacheLogParserProject.Parser.csproj" />
     </ItemGroup>
 

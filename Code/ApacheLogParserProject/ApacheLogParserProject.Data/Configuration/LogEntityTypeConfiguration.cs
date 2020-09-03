@@ -9,7 +9,7 @@ namespace ApacheLogParserProject.Data.Configuration
         public void Configure(EntityTypeBuilder<Log> builder)
         {
             builder.HasKey(l => l.Id);
-            builder.Property(l => l.ClientGeolocation).IsRequired();
+            builder.HasIndex(l => l.PublicId).IsUnique();
             builder.Property(l => l.RequestRoute).IsRequired();
             builder.Property(l => l.ClientIpAddress).IsRequired();
         }

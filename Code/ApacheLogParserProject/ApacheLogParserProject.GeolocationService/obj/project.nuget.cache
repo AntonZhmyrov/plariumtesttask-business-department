@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ndLXawdGQSrO77jYVbKb3T3IrMjPjgm7h1ASUlXOzOSy4BWZVZyOrqOPwuI//+9p8KKIkhgHVHiQFacgb0YB/g==",
+  "success": true,
+  "projectFilePath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogParserProject\\ApacheLogParserProject.GeolocationService\\ApacheLogParserProject.GeolocationService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton.zhmyrov\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

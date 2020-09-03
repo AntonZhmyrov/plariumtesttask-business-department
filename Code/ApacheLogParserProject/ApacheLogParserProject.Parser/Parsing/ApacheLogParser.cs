@@ -36,6 +36,7 @@ namespace ApacheLogParserProject.Parser.Parsing
 
         private readonly ConcurrentBag<ILog> _logs = new ConcurrentBag<ILog>();
 
+        /// <inheritdoc />
         public async Task<ILog[]> ParseAsync(string[] logEntries)
         {
             if (logEntries == null || !logEntries.Any())
@@ -43,6 +44,7 @@ namespace ApacheLogParserProject.Parser.Parsing
                 return Enumerable.Empty<ILog>().ToArray();
             }
 
+            // Filter out requests to get css, js or image files
             var filteredLogEntries = logEntries
                 .Where(logEntry => !FrontendRequestPattern.IsMatch(logEntry))
                 .ToArray();
@@ -52,6 +54,8 @@ namespace ApacheLogParserProject.Parser.Parsing
                 return Enumerable.Empty<ILog>().ToArray();
             }
 
+            // Run log parsing on a thread pool thread, in order not to block the main thread from the app
+            // Then the parallel class parallelizes work between the cores using other thread pool threads
             await Task.Run(() => Parallel.ForEach(filteredLogEntries, logEntry =>
             {
                 var log = ParseInternal(logEntry);
@@ -72,8 +76,13 @@ namespace ApacheLogParserProject.Parser.Parsing
                 return null;
             }
 
+            // Parse route data: route and query params specifically
             var (route, queryParameters) = ParseRouteData(logEntry);
+            
+            // Parse request datetime 
             var requestDateTime = ParseRequestDateTime(logEntry);
+            
+            // Parse response data: response code and response size numbers specifically
             var (responseCode, responseSize) = ParseResponseData(logEntry);
 
             var logModel = new LogModel

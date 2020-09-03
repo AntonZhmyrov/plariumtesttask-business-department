@@ -59,3 +59,5 @@ D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\
 D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Parser.dll
 D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Parser.pdb
 D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Models.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\Debug\netcoreapp3.1\ApacheLogParserProject.GeolocationService.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\bin\Debug\netcoreapp3.1\ApacheLogParserProject.GeolocationService.pdb

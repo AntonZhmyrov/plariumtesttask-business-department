@@ -1,0 +1,12 @@
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\bin\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.deps.json
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\bin\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\bin\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.csprojAssemblyReference.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.csproj.CoreCompileInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.AssemblyInfoInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.AssemblyInfo.cs
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\bin\Debug\netstandard2.1\ApacheLogParserProject.Models.dll
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\bin\Debug\netstandard2.1\ApacheLogParserProject.Models.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\obj\Debug\netstandard2.1\ApacheLogParserProject.GeolocationService.csproj.CopyComplete

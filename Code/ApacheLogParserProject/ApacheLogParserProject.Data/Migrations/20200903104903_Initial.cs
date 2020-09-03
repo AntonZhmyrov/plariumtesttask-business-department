@@ -16,7 +16,7 @@ namespace ApacheLogParserProject.Data.Migrations
                     PublicId = table.Column<Guid>(nullable: false),
                     RequestDateTime = table.Column<DateTime>(nullable: false),
                     ClientIpAddress = table.Column<string>(nullable: false),
-                    ClientGeolocation = table.Column<string>(nullable: false),
+                    ClientGeolocation = table.Column<string>(nullable: true),
                     RequestRoute = table.Column<string>(nullable: false),
                     RequestQueryParameters = table.Column<string>(nullable: true),
                     ResponseCode = table.Column<int>(nullable: false),
@@ -26,6 +26,12 @@ namespace ApacheLogParserProject.Data.Migrations
                 {
                     table.PrimaryKey("PK_Logs", x => x.Id);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Logs_PublicId",
+                table: "Logs",
+                column: "PublicId",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

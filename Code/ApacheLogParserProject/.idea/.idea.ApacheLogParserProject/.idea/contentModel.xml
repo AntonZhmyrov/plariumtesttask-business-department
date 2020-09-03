@@ -27,9 +27,12 @@
         <e p="Entities" t="Include">
           <e p="Log.cs" t="Include" />
         </e>
+        <e p="Extensions" t="Include">
+          <e p="LogExtensions.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
-          <e p="20200902103755_Initial.cs" t="Include" />
-          <e p="20200902103755_Initial.Designer.cs" t="Include" />
+          <e p="20200903104903_Initial.cs" t="Include" />
+          <e p="20200903104903_Initial.Designer.cs" t="Include" />
           <e p="ApacheLogsDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -44,6 +47,22 @@
           <e p="IApacheLogsRepository.cs" t="Include" />
         </e>
       </e>
+      <e p="ApacheLogParserProject.GeolocationService" t="IncludeRecursive">
+        <e p="ApacheLogParserProject.GeolocationService.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GeolocationApiService.cs" t="Include" />
+        <e p="GeolocationFiller.cs" t="Include" />
+        <e p="GeolocationResponse.cs" t="Include" />
+        <e p="IGeolocationApiService.cs" t="Include" />
+        <e p="IGeolocationFiller.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="ApacheLogParserProject.GeolocationService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="ApacheLogParserProject.Models" t="IncludeRecursive">
         <e p="ApacheLogParserProject.Models.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
@@ -56,7 +75,6 @@
             </e>
           </e>
         </e>
-        <e p="ProgressTrackingModel.cs" t="Include" />
       </e>
       <e p="ApacheLogParserProject.Parser" t="IncludeRecursive">
         <e p="ApacheLogParserProject.Parser.csproj" t="IncludeRecursive" />
