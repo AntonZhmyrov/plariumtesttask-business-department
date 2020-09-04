@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogApi", "ApacheLogApi\ApacheLogApi.csproj", "{12D4FEBB-B1CF-4ADE-B2E8-A9B3739F04B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject.Data", "..\ApacheLogParserProject\ApacheLogParserProject.Data\ApacheLogParserProject.Data.csproj", "{AE3121C1-1491-4E98-967C-EB14A973DF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApacheLogParserProject.Models", "..\ApacheLogParserProject\ApacheLogParserProject.Models\ApacheLogParserProject.Models.csproj", "{0CC1A571-EBC8-480B-AB22-F276FA1AC9DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{12D4FEBB-B1CF-4ADE-B2E8-A9B3739F04B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D4FEBB-B1CF-4ADE-B2E8-A9B3739F04B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D4FEBB-B1CF-4ADE-B2E8-A9B3739F04B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3121C1-1491-4E98-967C-EB14A973DF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3121C1-1491-4E98-967C-EB14A973DF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3121C1-1491-4E98-967C-EB14A973DF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3121C1-1491-4E98-967C-EB14A973DF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC1A571-EBC8-480B-AB22-F276FA1AC9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC1A571-EBC8-480B-AB22-F276FA1AC9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC1A571-EBC8-480B-AB22-F276FA1AC9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC1A571-EBC8-480B-AB22-F276FA1AC9DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

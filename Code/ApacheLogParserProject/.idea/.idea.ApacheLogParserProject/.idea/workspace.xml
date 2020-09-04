@@ -4,6 +4,24 @@
     <projectFile>ApacheLogParserProject/ApacheLogParserProject.csproj</projectFile>
     <projectFile>ApacheLogParserProject.Data/ApacheLogParserProject.Data.csproj</projectFile>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="" />
@@ -27,11 +45,93 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23c90b4a-7fbb-4f79-8764-aee529196e8f" name="Default Changelist" comment="" />
+    <list default="true" id="23c90b4a-7fbb-4f79-8764-aee529196e8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi.Service/ApacheLogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi.Service/IApacheLogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Controllers/LogsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Models/Responses/HostResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ApacheLogParserProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/Configuration/HostInfoConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/Entities/KeylessEntities/HostInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/IHostInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/.idea/.idea.ApacheLogApi/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/ApacheLogApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/ApacheLogApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/ApacheLogApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/Debug/netcoreapp3.1/ApacheLogApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/Debug/netcoreapp3.1/ApacheLogApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/Debug/netcoreapp3.1/ApacheLogApi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/Debug/netcoreapp3.1/ApacheLogApi.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../ApacheLogApi/ApacheLogApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogParserProject.Data/ApacheLogParserProject.Data/obj/ApacheLogParserProject.Data.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogParserProject.Data/ApacheLogParserProject.Data/obj/ApacheLogParserProject.Data.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogParserProject.Data/ApacheLogParserProject.Data/obj/ApacheLogParserProject.Data.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogParserProject.Data/ApacheLogParserProject.Data/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApacheLogParserProject.Data/ApacheLogParserProject.Data/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApacheLogParserProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApacheLogParserProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ApacheLogParserProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ApacheLogParserProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/ApacheLogsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/ApacheLogsDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/IApacheLogsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/IApacheLogsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/obj/Debug/netstandard2.1/ApacheLogParserProject.GeolocationService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Models/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Parser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Parser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Parser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/bin/Debug/netstandard2.1/ApacheLogParserProject.Parser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject.Parser/obj/Debug/netstandard2.1/ApacheLogParserProject.Parser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.GeolocationService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.GeolocationService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.GeolocationService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.GeolocationService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Parser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Parser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Parser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.Parser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/bin/Debug/netcoreapp3.1/ApacheLogParserProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ApacheLogParserProject/obj/Debug/netcoreapp3.1/ApacheLogParserProject.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -66,24 +166,25 @@
         <option value="$PROJECT_DIR$/ApacheLogParserProject.Models/ILog.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.Models/LogModel.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.Models/ProgressTrackingModel.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Parser/Parsing/IApacheLogParser.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Parser/Parsing/ApacheLogParser.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/Class1.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/GeolocationResponse.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/CustomHttpClient.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Extensions/LogExtensions.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Configuration/LogEntityTypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject/Program.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/IApacheLogsRepository.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/IGeolocationApiService.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/GeolocationApiService.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/GeolocationResponse.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/IGeolocationFiller.cs" />
         <option value="$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/GeolocationFiller.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/IApacheLogsRepository.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Extensions/LogExtensions.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject/Program.cs" />
-        <option value="$PROJECT_DIR$/ApacheLogParserProject.Data/Configuration/LogEntityTypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Parser/Parsing/IApacheLogParser.cs" />
+        <option value="$PROJECT_DIR$/ApacheLogParserProject.Parser/Parsing/ApacheLogParser.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1gs7Bx05od1eicWtLmkyDzVYUVK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -142,12 +243,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598891316261</updated>
-      <workItem from="1598891329541" duration="45195000" />
+      <workItem from="1598891329541" duration="51049000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -157,86 +269,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="506" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1599129878804" />
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1599129364256">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1599168786024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599129364256" />
-    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1599129364256">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599168786024" />
+    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1599168786024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599129364256" />
-    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1599129364256">
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599168786024" />
+    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1599168786024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599129364256" />
-    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1599129364256">
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599168786024" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1599168786024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599129364256" />
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1599129372449">
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599168786024" />
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom" timestamp="1599168790587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599129372449" />
-    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1599129372448">
+    <state width="1493" height="279" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599168790587" />
+    <state width="1493" height="279" key="GridCell.Tab.1.center" timestamp="1599168790587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599129372448" />
-    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1599129372448">
+    <state width="1493" height="279" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599168790587" />
+    <state width="1493" height="279" key="GridCell.Tab.1.left" timestamp="1599168790587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599129372448" />
-    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1599129372449">
+    <state width="1493" height="279" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599168790587" />
+    <state width="1493" height="279" key="GridCell.Tab.1.right" timestamp="1599168790587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599129372449" />
-    <state width="1493" height="279" key="GridCell.Tab.2.bottom" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599168790587" />
+    <state width="1493" height="279" key="GridCell.Tab.2.bottom" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.2.center" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.2.center" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.2.left" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.2.left" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.2.right" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.2.right" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.3.bottom" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.3.bottom" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.3.center" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.3.center" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.3.left" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.3.left" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.3.right" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.3.right" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.4.bottom" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.4.bottom" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.4.center" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.4.center" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.4.left" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.4.left" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
-    <state width="1493" height="279" key="GridCell.Tab.4.right" timestamp="1599129364128">
+    <state width="1493" height="279" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
+    <state width="1493" height="279" key="GridCell.Tab.4.right" timestamp="1599168785894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1599129364128" />
+    <state width="1493" height="279" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1599168785894" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1599058062020">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,133 +367,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>49</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="40">
-            <startOffsets>
-              <option value="1995" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1996" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>47</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="39">
-            <startOffsets>
-              <option value="1949" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1950" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject.GeolocationService/GeolocationApiService.cs</url>
           <line>26</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.GeolocationService\GeolocationApiService.cs" initialLine="26">
+          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="26">
             <startOffsets>
-              <option value="944" />
+              <option value="901" />
             </startOffsets>
             <endOffsets>
-              <option value="945" />
+              <option value="968" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>39</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="41">
-            <startOffsets>
-              <option value="1508" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1571" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>37</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="39">
-            <startOffsets>
-              <option value="1415" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1474" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>43</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="43">
-            <startOffsets>
-              <option value="1689" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1770" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>44</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="44">
-            <startOffsets>
-              <option value="1787" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1836" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject/Program.cs</url>
-          <line>46</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject\Program.cs" initialLine="46">
-            <startOffsets>
-              <option value="1870" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1936" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs</url>
-          <line>28</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\Repositories\ApacheLogsRepository.cs" initialLine="28">
-            <startOffsets>
-              <option value="816" />
-            </startOffsets>
-            <endOffsets>
-              <option value="864" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ApacheLogParserProject.Data/Repositories/ApacheLogsRepository.cs</url>
-          <line>29</line>
-          <properties documentPath="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data\Repositories\ApacheLogsRepository.cs" initialLine="29">
-            <startOffsets>
-              <option value="877" />
-            </startOffsets>
-            <endOffsets>
-              <option value="913" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

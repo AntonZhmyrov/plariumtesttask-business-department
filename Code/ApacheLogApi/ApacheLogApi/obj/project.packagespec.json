@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "D:\\Testing tasks\\Plarium\\Code\\ApacheLogApi\\ApacheLogApi.Service\\ApacheLogApi.Service.csproj": {
+            "projectPath": "D:\\Testing tasks\\Plarium\\Code\\ApacheLogApi\\ApacheLogApi.Service\\ApacheLogApi.Service.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -28,6 +32,12 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.5.1, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

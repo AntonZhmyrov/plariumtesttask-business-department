@@ -1,0 +1,14 @@
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogApi.Service.deps.json
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogApi.Service.dll
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogApi.Service.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.dll
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Models.dll
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Data.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\bin\Debug\netcoreapp3.1\ApacheLogParserProject.Models.pdb
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.csprojAssemblyReference.cache
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.csproj.CoreCompileInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.AssemblyInfoInputs.cache
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.AssemblyInfo.cs
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.csproj.CopyComplete
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.dll
+D:\Testing tasks\Plarium\Code\ApacheLogApi\ApacheLogApi.Service\obj\Debug\netcoreapp3.1\ApacheLogApi.Service.pdb

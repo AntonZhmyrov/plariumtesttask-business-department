@@ -9,6 +9,15 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="LogsController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Requests" t="Include" />
+          <e p="Responses" t="Include">
+            <e p="HostResponse.cs" t="Include" />
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -24,6 +33,56 @@
       </e>
       <e p="ApacheLogApi.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Data" t="IncludeRecursive">
+      <e p="ApacheLogParserProject.Data.csproj" t="IncludeRecursive" />
+      <e p="ApacheLogsDbContext.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Configuration" t="Include">
+        <e p="HostInfoConfiguration.cs" t="Include" />
+        <e p="LogEntityTypeConfiguration.cs" t="Include" />
+      </e>
+      <e p="Entities" t="Include">
+        <e p="KeylessEntities" t="Include">
+          <e p="HostInfo.cs" t="Include" />
+        </e>
+        <e p="Log.cs" t="Include" />
+      </e>
+      <e p="Extensions" t="Include">
+        <e p="LogExtensions.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20200903104903_Initial.cs" t="Include" />
+        <e p="20200903104903_Initial.Designer.cs" t="Include" />
+        <e p="20200903212729_SP_AddGetHostsSP.cs" t="Include" />
+        <e p="20200903212729_SP_AddGetHostsSP.Designer.cs" t="Include" />
+        <e p="ApacheLogsDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="ApacheLogParserProject.Data.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Repositories" t="Include">
+        <e p="ApacheLogsRepository.cs" t="Include" />
+        <e p="IApacheLogsRepository.cs" t="Include" />
+      </e>
+    </e>
+    <e p="D:\Testing tasks\Plarium\Code\ApacheLogParserProject\ApacheLogParserProject.Models" t="IncludeRecursive">
+      <e p="ApacheLogParserProject.Models.csproj" t="IncludeRecursive" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="IHostInfo.cs" t="Include" />
+      <e p="ILog.cs" t="Include" />
+      <e p="LogModel.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.1" t="Include">
+            <e p="ApacheLogParserProject.Models.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
     </e>
   </component>
 </project>

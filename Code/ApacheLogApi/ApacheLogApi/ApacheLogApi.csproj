@@ -4,4 +4,16 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Models\Requests" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ApacheLogApi.Service\ApacheLogApi.Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    </ItemGroup>
+
 </Project>
