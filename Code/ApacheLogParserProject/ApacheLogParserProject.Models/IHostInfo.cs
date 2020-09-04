@@ -2,10 +2,10 @@
 {
     public interface IHostInfo
     {
-        public string HostIpAddress { get; set; }
+        string HostIpAddress { get; set; }
 
-        public string HostCountry { get; set; }
+        string HostCountry { get; set; }
 
-        public int NumberOfRequests { get; set; }
+        int NumberOfRequests { get; set; }
     }
 }

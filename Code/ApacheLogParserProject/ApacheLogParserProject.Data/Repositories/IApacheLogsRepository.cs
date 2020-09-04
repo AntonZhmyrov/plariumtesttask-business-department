@@ -13,5 +13,7 @@ namespace ApacheLogParserProject.Data.Repositories
         Task<bool> CreateManyAsync(IEnumerable<ILog> logs);
 
         Task<IEnumerable<IHostInfo>> GetHostsAsync(int numberOfHosts, DateTime? start, DateTime? end);
+
+        Task<IEnumerable<IRouteInfo>> GetRoutesAsync(int numberOfHosts, DateTime? start, DateTime? end);
     }
 }

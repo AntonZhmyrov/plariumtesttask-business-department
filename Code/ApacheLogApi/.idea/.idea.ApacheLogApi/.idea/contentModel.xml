@@ -13,9 +13,9 @@
           <e p="LogsController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
-          <e p="Requests" t="Include" />
           <e p="Responses" t="Include">
             <e p="HostResponse.cs" t="Include" />
+            <e p="RouteResponse.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -41,10 +41,12 @@
       <e p="Configuration" t="Include">
         <e p="HostInfoConfiguration.cs" t="Include" />
         <e p="LogEntityTypeConfiguration.cs" t="Include" />
+        <e p="RouteInfoConfiguration.cs" t="Include" />
       </e>
       <e p="Entities" t="Include">
         <e p="KeylessEntities" t="Include">
           <e p="HostInfo.cs" t="Include" />
+          <e p="RouteInfo.cs" t="Include" />
         </e>
         <e p="Log.cs" t="Include" />
       </e>
@@ -56,6 +58,8 @@
         <e p="20200903104903_Initial.Designer.cs" t="Include" />
         <e p="20200903212729_SP_AddGetHostsSP.cs" t="Include" />
         <e p="20200903212729_SP_AddGetHostsSP.Designer.cs" t="Include" />
+        <e p="20200904094122_SP_AddGetRoutesSP.cs" t="Include" />
+        <e p="20200904094122_SP_AddGetRoutesSP.Designer.cs" t="Include" />
         <e p="ApacheLogsDbContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
@@ -75,6 +79,7 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="IHostInfo.cs" t="Include" />
       <e p="ILog.cs" t="Include" />
+      <e p="IRouteInfo.cs" t="Include" />
       <e p="LogModel.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">

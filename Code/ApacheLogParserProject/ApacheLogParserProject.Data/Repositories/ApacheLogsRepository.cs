@@ -13,6 +13,10 @@ namespace ApacheLogParserProject.Data.Repositories
 {
     public class ApacheLogsRepository : IApacheLogsRepository
     {
+        private const string NumberOfHostsParameterName = "@NumberOfHosts";
+        private const string StartParameterName = "@Start";
+        private const string EndParameterName = "@End";
+        
         private readonly ApacheLogsDbContext _dbContext;
 
         public ApacheLogsRepository(ApacheLogsDbContext dbContext)
@@ -41,30 +45,45 @@ namespace ApacheLogParserProject.Data.Repositories
         public async Task<IEnumerable<IHostInfo>> GetHostsAsync(int numberOfHosts, DateTime? start, DateTime? end)
         {
             const string procedureName = "dbo.GetHosts";
-            const string numberOfHostsParameterName = "@NumberOfHosts";
-            const string startParameterName = "@Start";
-            const string endParameterName = "@End";
+            
+            var (sqlScript, parameters) = BuildSqlQuery(procedureName, numberOfHosts, start, end);
+            
+            return await _dbContext.Set<HostInfo>().FromSqlRaw(sqlScript, parameters).ToListAsync();
+        }
 
+        /// <inheritdoc/>
+        public async Task<IEnumerable<IRouteInfo>> GetRoutesAsync(int numberOfHosts, DateTime? start, DateTime? end)
+        {
+            const string procedureName = "dbo.GetRoutes";
+
+            var (sqlScript, parameters) = BuildSqlQuery(procedureName, numberOfHosts, start, end);
+            
+            return await _dbContext.Set<RouteInfo>().FromSqlRaw(sqlScript, parameters).ToListAsync();
+        }
+
+        private (string SqlScript, object[] Parameters) BuildSqlQuery(
+            string procedureName, int numberOfHosts, DateTime? start, DateTime? end)
+        {
             var numberOfHostsSqlParameter = new SqlParameter
             {
-                ParameterName = numberOfHostsParameterName, 
+                ParameterName = NumberOfHostsParameterName, 
                 Value = numberOfHosts,
                 SqlDbType = SqlDbType.Int
             };
 
-            var sqlScript = $"{procedureName} {numberOfHostsParameterName}";
+            var sqlScript = $"{procedureName} {NumberOfHostsParameterName}";
             var parameters = new List<SqlParameter> { numberOfHostsSqlParameter };
-
+            
             if (start.HasValue)
             {
                 var startSqlParameter = new SqlParameter
                 {
-                    ParameterName = startParameterName, 
+                    ParameterName = StartParameterName, 
                     Value = start.Value,
                     SqlDbType = SqlDbType.DateTime2
                 };
 
-                sqlScript += $", {startParameterName}";
+                sqlScript += $", {StartParameterName}";
                 parameters.Add(startSqlParameter);
             }
 
@@ -72,18 +91,18 @@ namespace ApacheLogParserProject.Data.Repositories
             {
                 var endSqlParameter = new SqlParameter
                 {
-                    ParameterName = endParameterName, 
+                    ParameterName = EndParameterName, 
                     Value = end,
                     SqlDbType = SqlDbType.DateTime2
                 };
                 
-                sqlScript += $", {endParameterName}";
+                sqlScript += $", {EndParameterName}";
                 parameters.Add(endSqlParameter);
             }
 
             var arrayOfParameters = parameters.Cast<object>().ToArray();
-            
-            return await _dbContext.Set<HostInfo>().FromSqlRaw(sqlScript, arrayOfParameters).ToListAsync();
+
+            return (sqlScript, arrayOfParameters);
         }
     }
 }

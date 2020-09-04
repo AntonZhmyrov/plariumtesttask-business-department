@@ -34,5 +34,21 @@ namespace ApacheLogApi.Controllers
                     NumberOfRequests = host.NumberOfRequests
                 }));
         }
+
+        [HttpGet("routes")]
+        public async Task<IActionResult> GetRoutesAsync(
+            [FromQuery] int numberOfHosts = 10,
+            [FromQuery] DateTime? start = null, 
+            [FromQuery] DateTime? end = null)
+        {
+            var routes = await _apacheLogsRepository.GetRoutesAsync(numberOfHosts, start, end);
+
+            return Ok(routes.Select(
+                route => new RouteResponse
+                {
+                    RequestRoute = route.RequestRoute, 
+                    NumberOfRequests = route.NumberOfRequests
+                }));
+        }
     }
 }

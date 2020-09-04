@@ -2,12 +2,10 @@
 
 namespace ApacheLogApi.Models.Responses
 {
-    public class HostResponse : IHostInfo
+    public class RouteResponse : IRouteInfo
     {
-        public string HostIpAddress { get; set; }
-
-        public string HostCountry { get; set; }
-
+        public string RequestRoute { get; set; }
+        
         public int NumberOfRequests { get; set; }
     }
 }

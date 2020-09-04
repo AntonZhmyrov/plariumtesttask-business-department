@@ -5,10 +5,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Models\Requests" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\ApacheLogApi.Service\ApacheLogApi.Service.csproj" />
     </ItemGroup>
 

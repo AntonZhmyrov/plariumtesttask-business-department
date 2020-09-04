@@ -17,6 +17,7 @@ namespace ApacheLogParserProject.Data
         {
             modelBuilder.ApplyConfiguration(new LogEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new HostInfoConfiguration());
+            modelBuilder.ApplyConfiguration(new RouteInfoConfiguration());
         }
     }
 }
