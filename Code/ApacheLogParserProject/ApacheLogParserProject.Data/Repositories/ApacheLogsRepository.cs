@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using ApacheLogParserProject.Data.Entities;
 using ApacheLogParserProject.Data.Entities.KeylessEntities;
 using ApacheLogParserProject.Data.Extensions;
 using ApacheLogParserProject.Models;
@@ -61,7 +62,29 @@ namespace ApacheLogParserProject.Data.Repositories
             return await _dbContext.Set<RouteInfo>().FromSqlRaw(sqlScript, parameters).ToListAsync();
         }
 
-        private (string SqlScript, object[] Parameters) BuildSqlQuery(
+        /// <inheritdoc/>
+        public async Task<IEnumerable<ILog>> GetLogsAsync(int offset, int limit, DateTime? start, DateTime? end)
+        {
+            IQueryable<Log> getLogsQuery = _dbContext.Logs;
+
+            if (start.HasValue)
+            {
+                getLogsQuery = getLogsQuery.Where(log => log.RequestDateTime >= start.Value);
+            }
+
+            if (end.HasValue)
+            {
+                getLogsQuery = getLogsQuery.Where(log => log.RequestDateTime <= end.Value);
+            }
+
+            return await getLogsQuery
+                .Skip(offset)
+                .Take(limit)
+                .OrderBy(log => log.RequestDateTime)
+                .ToListAsync();
+        }
+
+        private static (string SqlScript, object[] Parameters) BuildSqlQuery(
             string procedureName, int numberOfHosts, DateTime? start, DateTime? end)
         {
             var numberOfHostsSqlParameter = new SqlParameter

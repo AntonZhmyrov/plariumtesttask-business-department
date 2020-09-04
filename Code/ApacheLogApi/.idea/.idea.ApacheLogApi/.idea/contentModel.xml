@@ -15,6 +15,7 @@
         <e p="Models" t="Include">
           <e p="Responses" t="Include">
             <e p="HostResponse.cs" t="Include" />
+            <e p="LogResponse.cs" t="Include" />
             <e p="RouteResponse.cs" t="Include" />
           </e>
         </e>

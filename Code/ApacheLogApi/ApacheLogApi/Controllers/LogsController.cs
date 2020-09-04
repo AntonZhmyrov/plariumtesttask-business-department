@@ -17,6 +17,28 @@ namespace ApacheLogApi.Controllers
         {
             _apacheLogsRepository = apacheLogsRepository;
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetLogsAsync(
+            [FromQuery] int offset, 
+            [FromQuery] int limit = 10, 
+            [FromQuery] DateTime? start = null, 
+            [FromQuery] DateTime? end = null)
+        {
+            var logs = 
+                await _apacheLogsRepository.GetLogsAsync(offset, limit, start, end);
+
+            return Ok(logs.Select(log => new LogResponse
+            {
+                ClientGeolocation = log.ClientGeolocation,
+                RequestRoute = log.RequestRoute,
+                ResponseCode = log.ResponseCode,
+                ResponseSize = log.ResponseSize,
+                ClientIpAddress = log.ClientIpAddress,
+                RequestDateTime = log.RequestDateTime,
+                RequestQueryParameters = log.RequestQueryParameters
+            }));
+        }
         
         [HttpGet("hosts")]
         public async Task<IActionResult> GetHostsAsync(
